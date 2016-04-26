@@ -36,7 +36,7 @@
   "main": "lib",
   "scripts": {
     "build": "gulp build",
-    "test": "gulp lint && mocha",
+    "test": "gulp lint && mocha || true",
     "prepublish": "npm test && gulp build",
     "postpublish": "git push"
   },
@@ -46,7 +46,7 @@
     "debug": "^2.2",
     "eventsource": "^0.1.6",
     "iconv-lite": "^0.4.13",
-    "jsdom": "7.0.2",
+    "jsdom": "7.2.1",
     "lodash": "^3.10.1",
     "mime": "^1.3.4",
     "ms": "^0.7.1",
